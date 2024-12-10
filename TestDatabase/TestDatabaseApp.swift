@@ -23,10 +23,12 @@ struct TestDatabaseApp: App {
         }
     }()
 
+    // Hello Git
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
-        .modelContainer(sharedModelContainer)
+       .modelContainer(sharedModelContainer)
+       // .modelContainer(for: DataItem.self)
     }
 }
